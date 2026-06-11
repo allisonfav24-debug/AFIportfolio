@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '../../components/ui/Button';
 import { ArrowDown } from 'lucide-react';
 
-const TAGLINE_ITEMS = ['CREATIVE', 'INTERVIEWER', 'Content-Strategist', 'Virtual Assistant'];
+const TAGLINE_ITEMS = ['CREATIVE', 'INTERVIEWER', 'Content-Strategist', 'Social Media Manager', 'Virtual Assistant'];
 
 export default function Hero({ scrollToSection }) {
   return (
@@ -25,7 +25,10 @@ export default function Hero({ scrollToSection }) {
 
       <div className="relative z-10 py-24 max-w-5xl w-full text-center">
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }}>
-          <motion.h1 className="text-7xl md:text-9xl font-bold tracking-tight mb-4 leading-none text-[#F5C518]">
+          <motion.h1
+            className="font-bold tracking-tight mb-4 leading-none text-[#F5C518]"
+            style={{ fontSize: 'clamp(2.8rem, 11vw, 8rem)' }}
+          >
             EnergyOganla
           </motion.h1>
           <motion.p
