@@ -47,7 +47,7 @@ export default function Work() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold tracking-tight mb-6">THE WORK</h2>
+          <h2 className="text-5xl sm:text-6xl md:text-8xl font-bold tracking-tight mb-6">Show Workings!</h2>
           <p className="text-lg sm:text-xl md:text-2xl text-white/50 max-w-3xl mx-auto">
             Content. Media. Strategy. All of it, done with energy.
           </p>

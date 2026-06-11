@@ -36,7 +36,7 @@ export default function Contact() {
 
         <div className="flex justify-center gap-6 pt-6 md:pt-8">
           {[
-            { href: 'https://www.instagram.com/energyoganla', icon: Instagram },
+            { href: 'https://www.instagram.com/energyoganla/', icon: Instagram },
             { href: 'https://x.com/energyoganla', icon: Twitter },
             { href: 'mailto:allisonfav24@gmail.com', icon: Mail },
           ].map((social, index) => {
