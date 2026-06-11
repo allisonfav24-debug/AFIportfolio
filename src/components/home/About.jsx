@@ -22,7 +22,7 @@ export default function About({ scrollToSection }) {
 
             <div className="prose prose-lg max-w-none space-y-6 text-[#2C3E2E]">
               <p className="text-xl md:text-2xl leading-relaxed font-medium">
-                Allison Favour Ifeoluwa — formally known as "EnergyOganla" — is a master of good humor, fast-paced storytelling, and crackling on-screen energy.
+                Allison Favour Ifeoluwa — formally known as "EnergyOganla" — is a master of good humour, fast-paced storytelling, and crackling on-screen energy.
               </p>
 
               <p className="text-lg leading-relaxed">
