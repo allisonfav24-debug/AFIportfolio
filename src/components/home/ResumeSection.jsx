@@ -8,8 +8,8 @@ export default function ResumeSection() {
   const [isHovering, setIsHovering] = useState(false);
 
   const stats = [
-    { icon: Briefcase, number: '2+', label: 'Years Experience' },
-    { icon: Mic2, number: '10+', label: 'Media Appearances' },
+    { icon: Briefcase, number: '3+', label: 'Years Experience' },
+    { icon: Mic2, number: '20+', label: 'Media Appearances' },
     { icon: PenTool, number: '50+', label: 'Content Pieces' },
     { icon: Coffee, number: '∞', label: 'Ideas Per Day' },
   ];

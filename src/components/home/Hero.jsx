@@ -25,18 +25,17 @@ export default function Hero({ scrollToSection }) {
 
       <div className="relative z-10 py-24 max-w-5xl w-full text-center">
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }}>
+          <motion.h1 className="text-7xl md:text-9xl font-bold tracking-tight mb-4 leading-none text-[#F5C518]">
+            EnergyOganla
+          </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-[#F5C518] text-sm md:text-base font-semibold tracking-[0.3em] uppercase mb-4"
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-white/50 text-base md:text-lg font-light tracking-widest uppercase mb-8"
           >
-            formerly known as EnergyOganla
+            Allison Favour Ifeoluwa
           </motion.p>
-          <motion.h1 className="text-6xl md:text-9xl font-bold tracking-tight mb-8 leading-none text-white">
-            Allison Favour<br />
-            <span className="text-[#F5C518]">Ifeoluwa</span>
-          </motion.h1>
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.8 }} className="space-y-6">

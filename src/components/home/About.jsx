@@ -15,7 +15,7 @@ export default function About({ scrollToSection }) {
         >
           <div className="space-y-8">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-              My name is Allison Favour Ifeoluwa,
+              I am EnergyOganla,
               <br />
               <span className="text-[#3B6B3F]">Here's a brief overview of who I am and the value I bring.</span>
             </h2>

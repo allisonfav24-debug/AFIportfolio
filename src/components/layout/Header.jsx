@@ -12,10 +12,10 @@ export default function Header() {
 
   return (
     <>
-      <motion.nav initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-6 mix-blend-difference">
+      <motion.nav initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-5 bg-[#1B2D1C]/90 backdrop-blur-md border-b border-white/5">
         <div className="max-w-screen-2xl mx-auto flex justify-between items-center">
-          <motion.div whileHover={{ scale: 1.05 }} onClick={() => scrollTo('hero')} className="text-lg font-bold tracking-tight cursor-pointer text-white">
-            AFI
+          <motion.div whileHover={{ scale: 1.05 }} onClick={() => scrollTo('hero')} className="text-lg font-bold tracking-tight cursor-pointer text-[#F5C518]">
+            EO
           </motion.div>
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
