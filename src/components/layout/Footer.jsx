@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-12 px-6 md:px-12 border-t border-white/10">
+    <footer className="bg-[#111E12] text-white py-12 px-6 md:px-12 border-t border-[#F5C518]/20">
       <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-sm text-gray-500">© 2025 Joshua Kumassi.</p>
-        <div className="flex gap-8 text-sm text-gray-500">
-          <a href="https://www.linkedin.com/in/joshua-kumassi-80915b306/" className="hover:text-white transition-colors">LinkedIn</a>
-          <a href="https://github.com/jaydrice" className="hover:text-white transition-colors">GitHub</a>
-          <a href="https://www.instagram.com/jay.d.rice/" className="hover:text-white transition-colors">Instagram</a>
+        <p className="text-sm text-white/40">© 2026 Allison Favour Ifeoluwa.</p>
+        <div className="flex gap-8 text-sm text-white/40">
+          <a href="https://www.instagram.com/energyoganla" target="_blank" rel="noreferrer" className="hover:text-[#F5C518] transition-colors">Instagram</a>
+          <a href="https://x.com/energyoganla" target="_blank" rel="noreferrer" className="hover:text-[#F5C518] transition-colors">X</a>
+          <a href="mailto:allisonfav24@gmail.com" className="hover:text-[#F5C518] transition-colors">Email</a>
         </div>
       </div>
     </footer>
